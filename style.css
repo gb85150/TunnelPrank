@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
-  background-image: url(res/matrix.gif) repeat fixed;
+  background-image:res/matrix.gif repeat fixed;
 }
 .main {
     background: rgba(255, 255, 255, 0.7);
@@ -9,4 +10,5 @@ body {
     margin-bottom: 10%;
     padding: 20px;
     border: 3px solid white;
+    font-family: roboto;
 }
