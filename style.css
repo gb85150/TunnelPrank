@@ -2,18 +2,64 @@
 body {
   background-image: url(res/matrix.gif) repeat fixed;
   background-color: slategrey;
+  text-align: center;
+  margin: 0px;
 }
 button {
   border-radius: 4px 4px 4px 4px;
   background-color : #6200EE;
+  color: white;
+}
+footer {
+  background: rgba(70, 70, 70, 1);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color : white;
+  font-family: Roboto;
+  align-self: flex-end;
+}
+a {
+  color: grey;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px;
+  background-color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
 }
 .main {
-    background: rgba(255, 255, 255, 0.7);
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 20px;
-    border: 3px solid white;
-    font-family: Roboto;
+  background: rgba(255, 255, 255, 0.7);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 20px;
+  border: 3px solid white;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  bottom: 15%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
 }
