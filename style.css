@@ -32,11 +32,11 @@ footer {
 a {
   color: grey;
   border-radius: 4px 4px 4px 4px;
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
   margin-top: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
