@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
-  background-image: url(res/matrix.gif) repeat fixed;
-  background-color: slategrey;
+  background-image: url('res/matrix.gif');
   text-align: center;
   margin: 0px;
 }
@@ -62,4 +61,10 @@ a {
   top: 0%;
   left: 0%;
   right: 0%;
+}
+form {
+  font-family: Roboto;
+}
+button {
+  font-family: Roboto;
 }
