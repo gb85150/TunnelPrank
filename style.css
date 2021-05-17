@@ -7,6 +7,9 @@ body {
   background-size: cover;
 
 }
+#title {
+  font-family: Roboto;
+}
 button {
   background-color : #222222;
   color: white;
@@ -16,6 +19,7 @@ button {
   border-radius: 10px;
   padding: 1%;
   transition: all 0.3s ease;
+  font-family: Roboto;
 }
 button:hover {
   transform: scale(1.1);
@@ -70,29 +74,17 @@ a {
 }
 .main {
   background: rgba(255, 255, 255, 0.7);
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding: 20px;
+  margin: 5%;
+  padding: 2%;
   border: 3px solid white;
   font-family: Roboto;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: stretch;
   justify-content: center;
-  align-content: center;
   position: absolute;
   bottom: 15%;
   top: 0%;
   left: 0%;
   right: 0%;
   border-radius: 15px;
-}
-form {
-  font-family: Roboto;
-}
-button {
-  font-family: Roboto;
 }
