@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #222222;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.TopNavbar {
+    position: fixed;
+    background-color: #fff;
+    padding: 1%;
+    padding-left: 5%;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.itemTopNavbar {
+    color: #222222;
+    font-size: 150%;
+    text-decoration: none;
+}
+.itemTopNavbar:hover {
+    text-decoration: underline;
+}
+
+.titleAbouteMe {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 500;
+}
+
+.linkAnonymousPage {
+    margin-top: 10%;
+    margin-left: 40.5%;
+    font-size: 150%;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.linkAnonymousPage:active {
+    transform: translateX(400px);
+}

@@ -5,7 +5,7 @@ body {
   margin: 0px;
   padding: none;
   background-size: cover;
-
+  font-family: Roboto;
 }
 .main {
   background: rgba(255, 255, 255, 0.7);
@@ -77,20 +77,14 @@ button:hover {
 }
 footer {
   background: rgba(70, 70, 70, 1);
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0;
   padding: 20px;
   font-family: Roboto;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: stretch;
   position: fixed;
   bottom: 0px;
   left: 0px;
   right: 0px;
   color : white;
-  font-family: Roboto;
-  align-self: flex-end;
 }
