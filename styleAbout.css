@@ -36,9 +36,11 @@ body {
     margin-left: 40.5%;
     font-size: 150%;
     color: #fff;
-    transition: all 0.3s ease;
-}
-
-.linkAnonymousPage:active {
-    transform: translateX(400px);
+    background-color : #222222;
+    width: 5%;
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: Roboto;
+    /* transition: all 0.3s ease; */
 }
