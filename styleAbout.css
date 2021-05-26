@@ -3,7 +3,7 @@
 body {
     background-color: #222222;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, serif;
 }
 
 .TopNavbar {
@@ -41,6 +41,6 @@ body {
     border: none;
     border-radius: 10px;
     padding: 1%;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     /* transition: all 0.3s ease; */
 }

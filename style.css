@@ -5,26 +5,26 @@ body {
   margin: 0px;
   padding: none;
   background-size: cover;
-  font-family: Roboto;
+  font-family: Roboto, serif;
 }
 .main {
   background: rgba(255, 255, 255, 0.7);
   margin: 5%;
   padding: 2%;
   border: 3px solid white;
-  font-family: Roboto;
+  font-family: Roboto, serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: absolute;
   bottom: 15%;
-  top: 0%;
+  top: 10%;
   left: 0%;
   right: 0%;
   border-radius: 15px;
 }
 #title {
-  font-family: Roboto;
+  font-family: Roboto, serif;
 }
 
 /* Form */
@@ -53,7 +53,7 @@ button {
   border-radius: 10px;
   padding: 1%;
   transition: all 0.3s ease;
-  font-family: Roboto;
+  font-family: Roboto, serif;
 }
 button:hover {
   transform: scale(1.1);
@@ -65,7 +65,7 @@ button:hover {
   border-radius: 4px;
   padding: 10px;
   background-color: white;
-  font-family: Roboto;
+  font-family: Roboto, serif;
   font-size: 18px;
   text-decoration: none;
   margin: 5%;
@@ -79,7 +79,7 @@ footer {
   background: rgba(70, 70, 70, 1);
   margin: 0;
   padding: 20px;
-  font-family: Roboto;
+  font-family: Roboto, serif;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -87,4 +87,24 @@ footer {
   left: 0px;
   right: 0px;
   color : white;
+}
+ul {
+  text-align: justify;
+}
+
+.TopNavbar {
+  position: fixed;
+  background-color: #fff;
+  padding: 1.5% 1% 1% 5%;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.itemTopNavbar {
+  color: #222222;
+  font-size: 150%;
+  text-decoration: none;
+}
+.itemTopNavbar:hover {
+  text-decoration: underline;
 }
