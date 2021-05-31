@@ -29,18 +29,19 @@ body {
 
 /* Form */
 #formInput {
-  margin: 0 auto 0;
+  margin: 0 10% 0 30%;
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: 60% 10% ;
 }
 input {
+  margin: 0 0 0 0;
   border: #222222;
   border-radius: 10px;
-  width: 30%;
-  font-size: 130%;
+  width: 100%;
+  font-size: 150%;
   background-color: #ffffff;
   color: #222222;
-  padding: 1%;
+  padding: 2%;
   transition: all 0.3s ease;
 }
 input:focus {
@@ -50,9 +51,10 @@ input:focus {
   outline: none;
 }
 button {
+  margin: 0 10% 0 35%;
   background-color : #222222;
   color: white;
-  width: 5%;
+  width: 80%;
   font-size: 130%;
   border: none;
   border-radius: 10px;
