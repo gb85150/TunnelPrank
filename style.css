@@ -28,6 +28,11 @@ body {
 }
 
 /* Form */
+#formInput {
+  margin: 0 auto 0;
+  display: grid;
+  grid-template-columns: auto auto ;
+}
 input {
   border: #222222;
   border-radius: 10px;
@@ -107,4 +112,48 @@ ul {
 }
 .itemTopNavbar:hover {
   text-decoration: underline;
+}
+/* Responsive */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #222222;
+    background-image: none;
+    text-align: center;
+    margin: 0px;
+    padding: none;
+    font-family: Roboto, serif;
+  }
+  .main {
+    background: dimgray;
+    padding: 2%;
+    margin: 0;
+    color: white;
+    border: 3px solid white;
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto;
+    justify-content: center;
+    position: absolute;
+    bottom: 10%;
+    top: 3%;
+    left: 3%;
+    right: 3%;
+    border-radius: 15px;
+  }
+  #formInput {
+    margin: 0 auto 0;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  input {
+    margin: 0 auto 10px;
+    width: 90%;
+    font-size: 160%;
+  }
+  button {
+    width: 30%;
+    margin: 0 auto 0;
+    font-size: 180%;
+  }
 }
