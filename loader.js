@@ -4,6 +4,14 @@ function load() {
     document.getElementById("Answer").style.fontSize="140%";
     let Website = document.getElementById("url_input").value;
     document.getElementById("Website").innerText=Website;
-    url = "http://" + Website
-    setTimeout(function(){ window.location.replace(url); }, 2000);
+    if(url != "") {
+      compose_url();
+      setTimeout(function(){ window.location.replace(url); }, 2000);
+    }
+    else {
+      document.getElementById("Answer").textContent="Error, Please provide clean url (BAD_URL)";
+    }
+  function compose_url() {
+    url = "http://" + Website;
+  }
 }
