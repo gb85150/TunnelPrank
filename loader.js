@@ -9,7 +9,8 @@ function load() {
       setTimeout(function(){ window.location.replace(url); }, 2000);
     }
     else {
-      document.getElementById("Answer").textContent="Error, Please provide clean url (BAD_URL)";
+      document.getElementById("Answer").innerText="Error, Please provide clean url (BAD_URL)"
+      alert("Error, Please provide clean url (BAD_URL)")
     }
   function compose_url() {
     url = "http://" + Website;
