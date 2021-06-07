@@ -31,7 +31,7 @@ body {
     font-weight: 500;
 }
 
-.linkAnonymousPage {
+/*.linkAnonymousPage {
     margin-top: 10%;
     margin-left: 40.5%;
     font-size: 150%;
@@ -43,4 +43,15 @@ body {
     padding: 1%;
     font-family: Roboto, serif;
     /* transition: all 0.3s ease; */
+a {
+  margin: 0 10% 0 35%;
+  background-color : #222222;
+  color: white;
+  width: 80%;
+  font-size: 130%;
+  border: none;
+  border-radius: 10px;
+  padding: 1%;
+  transition: all 0.3s ease;
+  font-family: Roboto, serif;
 }
