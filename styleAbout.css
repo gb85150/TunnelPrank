@@ -45,7 +45,7 @@ body {
     display: flex;
 }
 
-button {
+.DLink {
   margin: 10%;
   background-color : #692929bf;
   color: white;
