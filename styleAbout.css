@@ -31,21 +31,23 @@ body {
     font-weight: 500;
 }
 
-/*.linkAnonymousPage {
-    margin-top: 10%;
-    margin-left: 40.5%;
+.linkAnonymousPage {
+    margin: 10%;
     font-size: 150%;
     color: #fff;
-    background-color : #222222;
-    width: 5%;
+    background-color : #692929bf;
     border: none;
     border-radius: 10px;
     padding: 1%;
     font-family: Roboto, serif;
-    /* transition: all 0.3s ease; */
-a {
-  margin: 0 10% 0 35%;
-  background-color : #222222;
+    justify-content: center;
+    transition: all 0.3s ease;
+    display: flex;
+}
+
+button {
+  margin: 10%;
+  background-color : #692929bf;
   color: white;
   width: 80%;
   font-size: 130%;
@@ -54,4 +56,6 @@ a {
   padding: 1%;
   transition: all 0.3s ease;
   font-family: Roboto, serif;
+  display: flex;
+  justify-content: center;
 }
